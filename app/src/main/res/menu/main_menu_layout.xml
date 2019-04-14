@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item android:id="@+id/notifyTime" android:title="@string/notify_time" app:showAsAction="never"/>
+    <item android:id="@+id/instructions" android:title="@string/instructions" app:showAsAction="never"/>
+    <item android:id="@+id/resetPwd" android:title="@string/reset_pwd" app:showAsAction="never"/>
+    <item android:id="@+id/logout" android:title="@string/logout" app:showAsAction="never"/>
+    <item android:id="@+id/deleteAccount" android:title="@string/delete_account" app:showAsAction="never"/>
+    <item android:id="@+id/signup" android:title="@string/signup_to_backup" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@+id/toolbar" android:background="?android:attr/colorPrimary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize" android:elevation="4dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/deadlineEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:hint="@string/the_mini_deadline" android:ems="10" android:inputType="textPersonName" android:textAlignment="center" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <CalendarView android:id="@+id/calendarView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0.746" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/deadlineTextView"/>
+            <EditText android:id="@+id/noteEditText" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/mini_deadline_note" android:ems="10" android:inputType="textMultiLine" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/calendarView"/>
+            <Button android:id="@+id/button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="modifyImg" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
