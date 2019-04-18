@@ -6,6 +6,8 @@
 
 **Note: This project has been deprecated.**
 
+This repo holds the decompiled app from the Play Store instead of the original source code since I had deleted it.
+
 This app helps you in accomplishing your goals by combining the best techniques for it such as the tips and tricks from the TED talk ["How to Become a Millionaire in 3 Years"](https://www.youtube.com/watch?v=jvBaRf9LHDs) and the [SMART criteria](https://en.wikipedia.org/wiki/SMART_criteria). It was written using Java, Android, and [Parse](https://parseplatform.org).
 
 ![Screenshot](screenshot.png)
